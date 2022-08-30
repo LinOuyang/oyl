@@ -27,7 +27,7 @@ m = oyl.map([70, 140], [0,60]) #创建底图对象，经度自70至140，纬度�
 m.load_china(facecolor='red', alpha=0.7) #用透明红色加载中国底图
 m.show() #查看图片
 ```
-![](./readme_images/im1.jpg)
+<img src="./readme_images/im1.jpg" width = "480" />
 
 ### 创建底图并填色
 ```python
@@ -40,7 +40,7 @@ m.load_province() #加载省份信息
 m.contourf(ds, cmap='rainbow', cbar=False) #填色小地图，同时声明不加色标cbar=Flase
 m.show()
 ```
-![](./readme_images/im2.jpg)
+<img src="./readme_images/im2.jpg" width = "480" />
 
 ### 其它功能
 nn模块包含少量自定义的神经网络,使用方法与sklearn.neural_network类似。
