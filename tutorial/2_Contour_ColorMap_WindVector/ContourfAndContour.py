@@ -3,7 +3,7 @@ import xarray as xr
 import oyl
 
 ##读取nc数据
-ds = xr.open_dataset("../datas/era5uvz500.nc")
+ds = xr.open_dataset("../Datas/era5uvz500.nc")
 ##除以98把位势变成位势高度（单位为位势什米
 z = ds.z[0]/98
 
