@@ -3,7 +3,7 @@ import xarray as xr
 import cartopy.crs as ccrs
 import oyl
 
-ds = xr.open_dataset("../datas/era5uvz500.nc")
+ds = xr.open_dataset("../Datas/era5uvz500.nc")
 ##选择经纬度区域
 ds = ds.sel(latitude=slice(60,0), longitude=slice(70, 140))
 ##除以98把位势变成位势高度（单位为位势什米
