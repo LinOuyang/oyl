@@ -2,7 +2,7 @@ import xarray as xr
 import oyl
 
 ##读取nc数据
-ds = xr.open_dataset("../datas/era5uvz500.nc")
+ds = xr.open_dataset("../Datas/era5uvz500.nc")
 ##读取uv风速，需要.data提取成np的数组，因为后面画图不支持DataArray对象
 u, v = ds.u[0].data, ds.v[0].data
 ##定义一个ds数据集描述的地图对象
